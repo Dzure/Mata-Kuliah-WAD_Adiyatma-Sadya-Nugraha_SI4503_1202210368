@@ -1,0 +1,11 @@
+body{
+    background-color: azure;
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2020/03/14/Background-city-of-the-morning-sky-Graphics-3653589-1-580x348.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: chartreuse;
+}
