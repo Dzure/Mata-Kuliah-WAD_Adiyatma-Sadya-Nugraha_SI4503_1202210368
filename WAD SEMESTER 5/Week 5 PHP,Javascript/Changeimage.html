@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript Change Image AKN BOJONEGORO</title>
+</head>
+<body>
+    <h1>Javascript can change image</h1>
+    <img id="myImage" onclick="changeImage()" src="Gambar1.jpeg" width="500" height="500">
+    <p>click image to change image</p>
+    <script>
+        function changeImage() {
+            var image = document.getElementById('myImage') ;
+            if (image.src.match("peaky")) {
+                image.src = "a.jpeg" ;
+            }  else {
+                image.src = "Gambar2.jpg" ;
+            }
+            
+        }
+    </script>
+</body>
+
+</html>
